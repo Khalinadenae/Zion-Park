@@ -1,0 +1,48 @@
+:root{
+  --main-bg-color: #f2f1ec;
+  --secondary-bg-color: #5b6759;
+  --accent-color: #935f5b;
+  --accent-color-dark:#2726b;
+  --font-family:'Noto Sans', sans-serif;
+}
+
+/* Hero section */ 
+.background{
+    width: 100%;
+    z-index: -1;
+    background-image: url(pexels-jacob-colvin-1761282.jpg);
+    background-size: cover;
+    height: 1000px;
+    background-position: center;
+    margin-top: -100px;
+    margin-right: 0;    
+  background-blend-mode: multiply;
+background-color: #66666669;
+}
+
+.hero-heading{
+    display: flex;
+  z-index: 1;
+  padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6em;
+    background-color: transparent;
+}
+
+
+
+.card-container{
+background-color: var(--main-bg-color);
+    padding: 100px;
+}
+
+#gallery{
+    padding:10px;
+    background-color: var(--main-bg-color);
+}
+.container-fluid{
+    background-color: var(--main-bg-color);
+    padding: 10px;
+}
