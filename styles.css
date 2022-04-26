@@ -10,7 +10,7 @@
 .background{
     width: 100%;
     z-index: -1;
-    background-image: url(src/pexels-jacob-colvin-1761282.jpg);
+    background-image: url(src/background-img.jfif);
     background-size: cover;
     height: 1000px;
     background-position: center;
@@ -24,12 +24,13 @@ border-bottom: 1em solid #935f5b;
 .hero-heading{
     display: flex;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 300px;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 6em;
     background-color: transparent;
+    font-family: var(--font-family);
 }
 
 .card-body{
