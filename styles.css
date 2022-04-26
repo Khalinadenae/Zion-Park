@@ -5,6 +5,10 @@
   --accent-color-dark:#2726b;
   --font-family:'Noto Sans', sans-serif;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 
 /* Hero section */ 
 .background{
